@@ -4,6 +4,16 @@ rm(list = ls())
 
 ?rnorm
 
+rnorm(10)
+
+rn <- rnorm(10, 5, 2)
+
+hist(rn)
+
+plot(rn)
+
+hist(round(rnorm(10, 5, 2)))
+
 hist((round(rnorm(3000 ,800, 60),0)))
 
 ?dnorm
@@ -18,6 +28,8 @@ hist(rnorm(100, 50, 10 ))
 rnorm(10, 50, 3)
 
 summary(rnorm(10, 50, 3 ))
+
+
 
 
 

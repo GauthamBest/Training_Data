@@ -18,6 +18,7 @@ x<- rep(1,100)
 
 y<- rnorm(100, mean = 50, sd = 10)
 
+y
 
 dat <- data.frame(x,y)
 
@@ -41,7 +42,7 @@ x <- seq(-30,30,1)
 x
 
 
-plot(x=x, y=dnorm(x, mean=0, sd=10), type='l')
+plot(x=x, y=dnorm(x, mean=0, sd=10), type='p')
 
 
 # Binomial distribution
